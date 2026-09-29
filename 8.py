@@ -1,0 +1,6 @@
+prec = float(input('Qual o valor do produto? R$'))
+desc = float(input('Qual o desconto? %'))
+pd = prec - (prec * desc / 100)
+print('Na promoção o desconto de {}%'.format(desc))
+print("No valor final do produto vai custar: {:.2f}".format(pd))
+print('Formas de pagamento: PIX ou espécie')
